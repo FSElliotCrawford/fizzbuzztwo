@@ -19,5 +19,9 @@ describe('fizzbuzz tests', () => {
 
     it('10 should return buzz', () => {
         expect(fizzBuzz(10)).toBe("buzz");
-    });    
+    });
+
+    it('1 should return "1"', () => {
+        expect(fizzBuzz(1)).toBe("1");
+    });
 })

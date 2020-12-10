@@ -7,7 +7,7 @@ export const fizzBuzz = (num: number): string => {
         return 'fizz';
     }
 
-    if (num === 5) {
+    if (num % 5 === 0) {
         return 'buzz';
     }
 
