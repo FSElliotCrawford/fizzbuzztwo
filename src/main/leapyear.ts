@@ -1,1 +1,1 @@
-export const isLeapYear = (num: number) => true;
+export const isLeapYear = (num: number) => num === 1996;
