@@ -11,5 +11,5 @@ export const fizzBuzz = (num: number): string => {
         return 'buzz';
     }
 
-    return '';
+    return '' + num;
 }
