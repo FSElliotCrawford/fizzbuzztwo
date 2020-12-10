@@ -1,15 +1,17 @@
 export const fizzBuzz = (num: number): string => {
-    if(num % 15 === 0) {
-        return 'fizzbuzz';
-    }
+    // if(num % 15 === 0) {
+    //     return 'fizzbuzz';
+    // }
+
+    let response = '';
     
     if(num % 3 === 0) {
-        return 'fizz';
+        response += 'fizz';
     }
 
     if (num % 5 === 0) {
-        return 'buzz';
+        response += 'buzz';
     }
 
-    return '' + num;
+    return response ? response : '' + num;
 }
