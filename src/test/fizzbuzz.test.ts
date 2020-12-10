@@ -8,4 +8,9 @@ describe('fizzbuzz tests', () => {
     it("5 should return buzz", () => {
         expect(fizzBuzz(5)).toBe("buzz");
     })
+
+    it("15 should return buzz", () => {
+        expect(fizzBuzz(15)).toBe("fizzbuzz");
+    })
+
 })
