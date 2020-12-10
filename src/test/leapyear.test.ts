@@ -23,5 +23,9 @@ describe('leap year', () => {
 
     it('should return false for 1800', () => {
         expect(isLeapYear(1800)).toBe(false);
-    });    
+    });
+
+    it('should return false for 3300', () => {
+        expect(isLeapYear(3300)).toBe(false);
+    });
 });
