@@ -3,5 +3,9 @@ export const fizzBuzz = (num: number): string => {
         return 'fizz';
     }
 
-    return 'buzz';
+    if (num === 5) {
+        return 'buzz';
+    }
+
+    return 'fizzbuzz';
 }
